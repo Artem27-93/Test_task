@@ -1,0 +1,71 @@
+
+body{
+    background: lightgray;
+}
+.container{
+    margin:  0 auto;
+    background-color: blanchedalmond;
+    max-width: 1200px;
+    min-height: 800px;
+}
+.header{
+   /* max-width: 600px;  */
+   margin: 20px auto ; 
+   max-width: 290px;
+     
+}
+h1{
+    text-align: center;
+    color:darkslategrey;
+     
+}
+h2{
+    text-align: left;
+    padding: 0 100px;
+    margin-bottom: 0px;
+    color:darkslategrey;
+
+}
+.img_tab{
+    margin: auto 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bar{
+    background-color:burlywood;
+    margin: auto 30px;
+}
+.bar p{
+    text-align: left;
+    padding: 0 100px;
+    margin: 10px;
+}
+.tabs{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.tabs__content {
+    display: none; /* по умолчанию прячем все блоки */
+    text-align: center;
+  }
+  .tabs__content.active {
+    display: block; /* по умолчанию показываем нужный блок */
+  }
+  .tabs__caption{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .tabs__caption li {
+    list-style-type: none; 
+   }
+   .tabs__caption button {
+    font-family: arial,sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: rgb(68,68,68);
+    text-decoration: none;
+    width: 150px;
+    height: 25px;
+   }
